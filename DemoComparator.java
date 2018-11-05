@@ -21,8 +21,8 @@ public class DemoComparator {
         capabilities.sort(new IsActiveComparator());
         System.out.println(capabilities);
 
-        Comparator<Capability> comparator = new Comparator<Capability>() {
-            @Override
+        /*Comparator<Capability> comparator = new Comparator<Capability>() {
+            @Override*/
             public int compare(Capability o1, Capability o2) {
                 // если ChannelName не равно - сравниваю по нему+
                 // если равно - перехожу к fingerPrint+
