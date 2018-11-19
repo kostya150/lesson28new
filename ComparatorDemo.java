@@ -3,8 +3,8 @@ package lesson28;
 import java.util.Comparator;
 
 public class ComparatorDemo {
-    Comparator<Capability> comparator = new Comparator<Capability>() {
-        @Override
+
+
         public int compare(Capability o1, Capability o2) {
 
             // если ChannelName не равно - сравниваю по нему+
@@ -27,5 +27,5 @@ public class ComparatorDemo {
                 return 0;
 
         }
-    };
+
 }
